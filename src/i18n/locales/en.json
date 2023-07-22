@@ -1,0 +1,15 @@
+{
+    "aLang": {
+        "name": "English",
+        "nativeName": "English"
+    },
+    "home": {
+        "title1": "Home screen"
+    },
+    "setting": {
+        "title1": "Profile screen"
+    },
+    "profile": {
+        "title1": "Setting screen"
+    }
+}

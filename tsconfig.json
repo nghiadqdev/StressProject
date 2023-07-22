@@ -1,0 +1,86 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "strictNullChecks": false,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react-native",
+    "lib": [
+      "ES2017",
+      "dom"
+    ],
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "noEmit": false,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "./src",
+    "paths": {
+      "@constants": [
+        "constants"
+      ],
+      "@homeScreen": [
+        "screens/HomeScreen"
+      ],
+      "@profileScreen": [
+        "screens/ProfileScreen"
+      ],
+      "@settingScreen": [
+        "screens/SettingScreen"
+      ],
+      "@config": ["config"],
+      "@i18n": ["i18n"],
+      "@components": ["components"],
+      "@utils": ["utils"],
+      // "@apis": ["apis"],
+      // "@assets": ["assets"],
+      // "@layouts": ["layouts"],
+      // "@helper": ["helper"],
+      // "@hooks": ["hooks"],
+      // "@navigation": ["navigation"],
+      // "@screens": ["screens"],
+      // "@providers": ["providers"],
+      // "@store": ["store"],
+      // "@themes": ["themes"],
+      // "@modules": ["modules"],
+      // "@realmdb": ["realmdb"],
+      // "@recoils": ["recoils"],
+      // "@data": ["data"],
+      // "@services": ["services"],
+      // "@redux": ["redux"],
+      // "@apis/*": ["apis/*"],
+      // "@assets/*": ["assets/*"],
+      // "@layouts/*": ["layouts/*"],
+      // "@components/*": ["components/*"],
+      // "@helper/*": ["helper/*"],
+      // "@hooks/*": ["hooks/*"],
+      // "@navigation/*": ["navigation/*"],
+      // "@screens/*": ["screens/*"],
+      // "@providers/*": ["providers/*"],
+      // "@store/*": ["store/*"],
+      // "@themes/*": ["themes/*"],
+      // "@utils/*": ["utils/*"],
+      // "@modules/*": ["modules/*"],
+      // "@realmdb/*": ["realmdb/*"],
+      // "@recoils/*": ["recoils/*"],
+      // "@i18n/*": ["i18n/*"],
+      // "@config/*": ["config/*"],
+      // "@data/*": ["data/*"],
+      // "@services/*": ["services/*"],
+      // "@redux/*": ["redux/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
